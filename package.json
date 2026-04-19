@@ -1,14 +1,13 @@
 {
   "name": "amazon-sp-api-proxy",
-  "version": "1.0.0",
-  "description": "Amazon SP-API Proxy Server",
+  "version": "2.0.0",
+  "description": "Amazon SP-API Proxy with SigV4 signing",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18.0.0"
